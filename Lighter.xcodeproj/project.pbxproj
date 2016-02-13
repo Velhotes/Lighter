@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7BCCCC11C6FBFB5003EE0C5 /* Lighter.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BCCCC01C6FBFB5003EE0C5 /* Lighter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7BCCCC81C6FBFB5003EE0C5 /* Lighter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BCCCBD1C6FBFB5003EE0C5 /* Lighter.framework */; };
 		C7BCCCCD1C6FBFB5003EE0C5 /* LighterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCCCCC1C6FBFB5003EE0C5 /* LighterTests.swift */; };
 /* End PBXBuildFile section */
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		C7BCCCBD1C6FBFB5003EE0C5 /* Lighter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7BCCCC01C6FBFB5003EE0C5 /* Lighter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lighter.h; sourceTree = "<group>"; };
 		C7BCCCC21C6FBFB5003EE0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BCCCC71C6FBFB5003EE0C5 /* LighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BCCCCC1C6FBFB5003EE0C5 /* LighterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LighterTests.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		C7BCCCBF1C6FBFB5003EE0C5 /* Lighter */ = {
 			isa = PBXGroup;
 			children = (
-				C7BCCCC01C6FBFB5003EE0C5 /* Lighter.h */,
 				C7BCCCC21C6FBFB5003EE0C5 /* Info.plist */,
 			);
 			path = Lighter;
@@ -93,7 +90,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BCCCC11C6FBFB5003EE0C5 /* Lighter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
