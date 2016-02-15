@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C70B74D51C72313C004C66C7 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74D41C72313C004C66C7 /* ViewControllerExtension.swift */; };
+		C70B74D71C7234CD004C66C7 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74D61C7234CD004C66C7 /* NSObjectExtension.swift */; };
+		C70B74D91C723B23004C66C7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74D81C723B23004C66C7 /* Logger.swift */; };
+		C70B74E11C7240F7004C66C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74E01C7240F7004C66C7 /* AppDelegate.swift */; };
+		C70B74E31C7240F7004C66C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74E21C7240F7004C66C7 /* ViewController.swift */; };
+		C70B74E61C7240F7004C66C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70B74E41C7240F7004C66C7 /* Main.storyboard */; };
+		C70B74E81C7240F7004C66C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70B74E71C7240F7004C66C7 /* Assets.xcassets */; };
+		C70B74EB1C7240F7004C66C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70B74E91C7240F7004C66C7 /* LaunchScreen.storyboard */; };
+		C70B74F01C724147004C66C7 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74D41C72313C004C66C7 /* ViewControllerExtension.swift */; };
+		C70B74F11C724147004C66C7 /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74D61C7234CD004C66C7 /* NSObjectExtension.swift */; };
+		C70B74F21C724147004C66C7 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70B74D81C723B23004C66C7 /* Logger.swift */; };
 		C7BCCCC81C6FBFB5003EE0C5 /* Lighter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BCCCBD1C6FBFB5003EE0C5 /* Lighter.framework */; };
 		C7BCCCCD1C6FBFB5003EE0C5 /* LighterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCCCCC1C6FBFB5003EE0C5 /* LighterTests.swift */; };
 /* End PBXBuildFile section */
@@ -22,6 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C70B74D41C72313C004C66C7 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		C70B74D61C7234CD004C66C7 /* NSObjectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		C70B74D81C723B23004C66C7 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		C70B74DE1C7240F7004C66C7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C70B74E01C7240F7004C66C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C70B74E21C7240F7004C66C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C70B74E51C7240F7004C66C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70B74E71C7240F7004C66C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C70B74EA1C7240F7004C66C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C70B74EC1C7240F7004C66C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BCCCBD1C6FBFB5003EE0C5 /* Lighter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Lighter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BCCCC21C6FBFB5003EE0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7BCCCC71C6FBFB5003EE0C5 /* LighterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LighterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +51,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C70B74DB1C7240F7004C66C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7BCCCB91C6FBFB5003EE0C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -48,9 +76,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C70B74DF1C7240F7004C66C7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C70B74E01C7240F7004C66C7 /* AppDelegate.swift */,
+				C70B74E21C7240F7004C66C7 /* ViewController.swift */,
+				C70B74E41C7240F7004C66C7 /* Main.storyboard */,
+				C70B74E71C7240F7004C66C7 /* Assets.xcassets */,
+				C70B74E91C7240F7004C66C7 /* LaunchScreen.storyboard */,
+				C70B74EC1C7240F7004C66C7 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		C7BCCCB31C6FBFB5003EE0C5 = {
 			isa = PBXGroup;
 			children = (
+				C70B74DF1C7240F7004C66C7 /* Example */,
 				C7BCCCBF1C6FBFB5003EE0C5 /* Lighter */,
 				C7BCCCCB1C6FBFB5003EE0C5 /* LighterTests */,
 				C7BCCCBE1C6FBFB5003EE0C5 /* Products */,
@@ -62,6 +104,7 @@
 			children = (
 				C7BCCCBD1C6FBFB5003EE0C5 /* Lighter.framework */,
 				C7BCCCC71C6FBFB5003EE0C5 /* LighterTests.xctest */,
+				C70B74DE1C7240F7004C66C7 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				C7BCCCC21C6FBFB5003EE0C5 /* Info.plist */,
+				C70B74D41C72313C004C66C7 /* ViewControllerExtension.swift */,
+				C70B74D61C7234CD004C66C7 /* NSObjectExtension.swift */,
+				C70B74D81C723B23004C66C7 /* Logger.swift */,
 			);
 			path = Lighter;
 			sourceTree = "<group>";
@@ -96,6 +142,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		C70B74DD1C7240F7004C66C7 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C70B74ED1C7240F7004C66C7 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				C70B74DA1C7240F7004C66C7 /* Sources */,
+				C70B74DB1C7240F7004C66C7 /* Frameworks */,
+				C70B74DC1C7240F7004C66C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = C70B74DE1C7240F7004C66C7 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		C7BCCCBC1C6FBFB5003EE0C5 /* Lighter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7BCCCD11C6FBFB5003EE0C5 /* Build configuration list for PBXNativeTarget "Lighter" */;
@@ -142,6 +205,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Velhotes;
 				TargetAttributes = {
+					C70B74DD1C7240F7004C66C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
 					C7BCCCBC1C6FBFB5003EE0C5 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
@@ -156,6 +222,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = C7BCCCB31C6FBFB5003EE0C5;
 			productRefGroup = C7BCCCBE1C6FBFB5003EE0C5 /* Products */;
@@ -164,11 +231,22 @@
 			targets = (
 				C7BCCCBC1C6FBFB5003EE0C5 /* Lighter */,
 				C7BCCCC61C6FBFB5003EE0C5 /* LighterTests */,
+				C70B74DD1C7240F7004C66C7 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C70B74DC1C7240F7004C66C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B74EB1C7240F7004C66C7 /* LaunchScreen.storyboard in Resources */,
+				C70B74E81C7240F7004C66C7 /* Assets.xcassets in Resources */,
+				C70B74E61C7240F7004C66C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7BCCCBB1C6FBFB5003EE0C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,10 +264,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C70B74DA1C7240F7004C66C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70B74F21C724147004C66C7 /* Logger.swift in Sources */,
+				C70B74E31C7240F7004C66C7 /* ViewController.swift in Sources */,
+				C70B74E11C7240F7004C66C7 /* AppDelegate.swift in Sources */,
+				C70B74F01C724147004C66C7 /* ViewControllerExtension.swift in Sources */,
+				C70B74F11C724147004C66C7 /* NSObjectExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7BCCCB81C6FBFB5003EE0C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C70B74D51C72313C004C66C7 /* ViewControllerExtension.swift in Sources */,
+				C70B74D91C723B23004C66C7 /* Logger.swift in Sources */,
+				C70B74D71C7234CD004C66C7 /* NSObjectExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +304,48 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		C70B74E41C7240F7004C66C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70B74E51C7240F7004C66C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C70B74E91C7240F7004C66C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C70B74EA1C7240F7004C66C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		C70B74EE1C7240F7004C66C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velhotes.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C70B74EF1C7240F7004C66C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = velhotes.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C7BCCCCF1C6FBFB5003EE0C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -304,6 +438,7 @@
 		C7BCCCD21C6FBFB5003EE0C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -314,12 +449,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = velhotes.Lighter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C7BCCCD31C6FBFB5003EE0C5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -356,6 +493,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C70B74ED1C7240F7004C66C7 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C70B74EE1C7240F7004C66C7 /* Debug */,
+				C70B74EF1C7240F7004C66C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		C7BCCCB71C6FBFB5003EE0C5 /* Build configuration list for PBXProject "Lighter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -372,6 +517,7 @@
 				C7BCCCD31C6FBFB5003EE0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7BCCCD41C6FBFB5003EE0C5 /* Build configuration list for PBXNativeTarget "LighterTests" */ = {
 			isa = XCConfigurationList;
@@ -380,6 +526,7 @@
 				C7BCCCD61C6FBFB5003EE0C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
